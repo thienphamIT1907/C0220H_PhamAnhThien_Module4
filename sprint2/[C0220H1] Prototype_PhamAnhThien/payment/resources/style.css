@@ -1,0 +1,54 @@
+* {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #1AB7EA;
+  --margin-right-icon: 10px;
+}
+
+.chil-navbar {
+  background: var(--main-bg-color);
+}
+
+.chil-logo {
+  font-family: 'Neuton', serif;
+  font-style: italic;
+  font-size: 2.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.chil-logo-icon::before {
+  content: '\f0e3';
+  font-family: 'FontAwesome';
+  font-size: 0.85em;
+}
+
+.chil-icon-cart::before {
+  content: '\f07a';
+  font-family: 'FontAwesome';
+  margin-right: var(--margin-right-icon);
+}
+
+.chil-icon-cart::before {
+  content: '\f07a';
+  font-family: 'FontAwesome';
+  margin-right: var(--margin-right-icon);
+}
+
+.chil-icon-hammer::before {
+  content: '\f0e3';
+  font-family: 'FontAwesome';
+  margin-right: var(--margin-right-icon);
+}
+
+.chil-icon-language img {
+  width: 2em;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+}
