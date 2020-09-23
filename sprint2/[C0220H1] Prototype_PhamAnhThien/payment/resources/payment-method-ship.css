@@ -34,5 +34,18 @@ body {
 .chil-payment-bank {
   width: 5%;
   margin-right: 15px;
-  display: block;
+}
+
+.chil-choose-bank img {
+  width: 20%;
+}
+
+.chil-footer {
+  background: #FCFCE8
+}
+
+.chil-footer button {
+  margin-top: 50%;
+  background:#1AB7EA;
+  color: white;
 }
