@@ -1,16 +1,21 @@
-* {
-  font-size: 100%;
+body {
+  width: 100%;
+  height: 100vh;
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 :root {
   --main-bg-color: #1AB7EA;
   --margin-right-icon: 10px;
+  --font-family-awesome: 'FontAwesome'
 }
 
-.chil-navbar {
+.chil-navbar,
+.chil-title {
   background: var(--main-bg-color);
 }
+
 
 .chil-logo {
   font-family: 'Neuton', serif;
@@ -20,27 +25,31 @@
   cursor: pointer;
 }
 
+.chil-product img {
+  width: 100%;
+}
+
 .chil-logo-icon::before {
   content: '\f0e3';
-  font-family: 'FontAwesome';
+  font-family: var(--font-family-awesome);
   font-size: 0.85em;
 }
 
 .chil-icon-cart::before {
   content: '\f07a';
-  font-family: 'FontAwesome';
+  font-family: var(--font-family-awesome);
   margin-right: var(--margin-right-icon);
 }
 
 .chil-icon-cart::before {
   content: '\f07a';
-  font-family: 'FontAwesome';
+  font-family: var(--font-family-awesome);
   margin-right: var(--margin-right-icon);
 }
 
 .chil-icon-hammer::before {
   content: '\f0e3';
-  font-family: 'FontAwesome';
+  font-family: var(--font-family-awesome);
   margin-right: var(--margin-right-icon);
 }
 
@@ -49,6 +58,77 @@
   border-radius: 5px;
 }
 
+.chil-bottom-question {
+  margin: 2% 11.5%;
+}
+
+.chil-main {
+  margin: 2% 10%;
+}
+.chil-tab-menu {
+  border: 1px solid rgb(230, 230, 230);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 2% 0;
+}
+
+.chil-tab-menu:hover {
+  border-bottom: 4px solid var(--main-bg-color);
+}
+
+.chil-tab-menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+}
+
+.chil-tab-menu-cart::before {
+  content: '\f07a';
+  margin-right: 10px;
+  font-family: var(--font-family-awesome);
+}
+
+.chil-tab-menu-saved::before {
+  content: '\f090';
+  font-family: var(--font-family-awesome);
+  margin-right: 10px;
+}
+
+.chil-tab-menu-saved::after {
+  content: '0';
+  background: grey;
+  border-radius: 100%;
+  color: white;
+  margin-left: 10px;
+  padding: 1% 3%;
+}
+
+.chil-summary {
+  background: white;
+}
+
+.chil-btn-success {
+  width: 100%;
+}
+
+.chil-btn-success::before {
+  content: '\f07a';
+  margin-right: 10px;
+  font-family: var(--font-family-awesome);
+  font-size: 1.5em;
+}
+
+.chil-shipping::before {
+  content: '\f0d1';
+  font-family: var(--font-family-awesome);
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.chil-payment-bank {
+  width: 10%;
+  margin-right: 15px;
+}
 a {
   color: white;
 }
