@@ -24,10 +24,10 @@ body {
   content: '';
   background: #1AB7EA;
   position: absolute;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   transform: rotate(45deg);
-  top: 71%;
+  top: 70%;
   left: 30px;
 }
 
